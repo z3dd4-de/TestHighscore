@@ -9,5 +9,8 @@ Contains a Node2D with a CanvasLayer to show the use of highscores.gd including 
 
 ## save_load_highscores.gd
 Taken from https://www.nightquestgames.com/godot-4-save-and-load-games-how-to-build-a-robust-system/
+
 Implemented as a singleton in autoload.
 
+## Feedback appreciated
+Contact me here on Github to let me know what you think about this little helper. Or if you found bugs. Or just to let me know that you like it.
