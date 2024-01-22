@@ -1,0 +1,4 @@
+res://game.gd
+res://game.tscn
+res://highscores.gd
+res://save_load_highscores.gd

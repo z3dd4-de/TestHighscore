@@ -1,0 +1,7 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1705942244
+game.gd::GDScript::-1::1705866837::0::1::::<>Node2D<>::
+game.tscn::PackedScene::4000834592187974589::1705867470::0::1::::<><>::res://game.gd
+highscores.gd::GDScript::-1::1705867470::0::1::::Highscores<>Node<>::
+icon.svg::CompressedTexture2D::452500447834413702::1705844941::1705844955::1::::<><>::
+save_load_highscores.gd::GDScript::-1::1705863821::0::1::::NSaveLoadHighscores<>Node<>::

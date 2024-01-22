@@ -1,0 +1,211 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxabfql73a6b6"]
+
+[ext_resource type="Script" path="res://game.gd" id="1_v4xbe"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_v4xbe")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -78.0
+offset_top = -43.5
+offset_right = 78.0
+offset_bottom = 43.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -63.0
+offset_top = -33.0
+offset_right = 63.0
+offset_bottom = 33.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HighscoreButton" type="Button" parent="CanvasLayer/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Highscore"
+
+[node name="RandomPointsButton" type="Button" parent="CanvasLayer/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Random Points"
+
+[node name="HighscorePanel" type="Panel" parent="CanvasLayer"]
+visible = false
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -462.0
+offset_bottom = 340.0
+grow_horizontal = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/HighscorePanel"]
+layout_mode = 0
+offset_right = 461.0
+offset_bottom = 300.0
+
+[node name="Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer"]
+layout_mode = 2
+text = "Highscores"
+
+[node name="GridContainer" type="GridContainer" parent="CanvasLayer/HighscorePanel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+columns = 2
+
+[node name="Name1Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points1Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="Name2Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points2Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="Name3Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points3Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="Name4Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points4Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="Name5Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points5Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="Name6Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points6Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="Name7Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points7Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="Name8Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points8Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="Name9Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points9Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="Name10Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Testname"
+
+[node name="Points10Label" type="Label" parent="CanvasLayer/HighscorePanel/VBoxContainer/GridContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "1200"
+horizontal_alignment = 2
+
+[node name="BackButton" type="Button" parent="CanvasLayer/HighscorePanel/VBoxContainer"]
+layout_mode = 2
+text = "Back"
+
+[node name="Panel3" type="Panel" parent="CanvasLayer"]
+offset_right = 123.0
+offset_bottom = 128.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Panel3"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel3/VBoxContainer"]
+layout_mode = 2
+text = "New Highscore"
+
+[node name="PlayerNameLineEdit" type="LineEdit" parent="CanvasLayer/Panel3/VBoxContainer"]
+layout_mode = 2
+text = "Playername"
+placeholder_text = "Playername"
+
+[node name="NewPointsLabel" type="Label" parent="CanvasLayer/Panel3/VBoxContainer"]
+layout_mode = 2
+
+[node name="SubmitButton" type="Button" parent="CanvasLayer/Panel3/VBoxContainer"]
+layout_mode = 2
+disabled = true
+text = "Submit"
+
+[connection signal="pressed" from="CanvasLayer/Panel/VBoxContainer/HighscoreButton" to="." method="_on_highscore_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/Panel/VBoxContainer/RandomPointsButton" to="." method="_on_random_points_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/HighscorePanel/VBoxContainer/BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/Panel3/VBoxContainer/SubmitButton" to="." method="_on_submit_button_pressed"]
