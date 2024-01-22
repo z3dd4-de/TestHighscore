@@ -39,7 +39,7 @@ func get_entry(p_name: String, p_points: int) -> Dictionary:
 
 
 func add_entry(p_name: String, p_points: int) -> void:
-	var values = []
+	#var values = []
 	var test = test_empty()
 	if test != -1:		# The first max_values entries can directly be pushed to the array
 		list[test] = get_entry(p_name, p_points)
@@ -104,4 +104,5 @@ func test_empty() -> int:
 	for i in max_values:	# the first max_values entries can be added directly
 		if list[i] == {}:
 			ret = i
+			return ret
 	return ret
